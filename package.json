@@ -1,0 +1,28 @@
+{
+  "name": "colecionador_bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Um bot que retorna cartas de Marvel Snap",
+  "main": "colecionador_bot.js",
+  "scripts": {
+    "start": "node --env-file .env colecionador_bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielsfarias/colecionador_bot.git"
+  },
+  "keywords": [
+    "Bot",
+    "Marvel",
+    "Snap"
+  ],
+  "author": "Gabriel Souza Farias",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gabrielsfarias/colecionador_bot/issues"
+  },
+  "homepage": "https://github.com/gabrielsfarias/colecionador_bot#readme",
+  "dependencies": {
+    "telegramsjs": "^4.8.2"
+  }
+}
